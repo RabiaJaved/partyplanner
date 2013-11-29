@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Title of my Blog</title>
+<script	 src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$("#hide-me").click(function() {
+			$(".box").hide(5000);
+		});	
+		$("#show-me").click(function() {
+			$(".box").show(1000);
+		});	
+		$("#toggle-me").click(function() {
+			$(".box").toggle(1000);
+		});	
+		$("#color-me").click(function() {
+			$(".box").css({"background":"black"});
+		});	
+		
+		
+		
+		
+	});
+</script>
+
+<style>
+	body{
+	background: blue;
+	}
+	.box {
+	background: red;
+	width: 250px;
+	height: 150px;
+	}
+</style>
+</head>
+<body>
+	<h1>HELLO</h1>
+	<ul>
+		<li id="hide-me"><a href="#"/>hide</li>
+		<li id="show-me">show</li>
+		<li id="toggle-me">TOggle</li>
+		<li id="color-me">color</li>
+	</ul>
+	<div class="box"></div>
+</body>
+</html>
+
