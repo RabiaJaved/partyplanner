@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Title of my Blog</title>
+<script	 src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+</head>
+<style>
+body{
+
+background: cornflourblue;
+}
+.box {
+background: red;
+}
+</style>
+<body>
+	<h1>HELLO</h1>
+	<ul>
+		<li>Show</li>
+		<li>Hide</li>
+		<li>TOggle</li>
+	</ul>
+	<div class="box"></div>
+</body>
+</html>
+
+
